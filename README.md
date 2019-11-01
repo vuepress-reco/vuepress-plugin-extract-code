@@ -4,6 +4,8 @@
 
 Features and code presentation plugin for vuepress-theme-reco or other vuepress theme.
 
+![demo](./bin/demo.png)
+
 ### Name
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-extract-code`
