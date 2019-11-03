@@ -164,6 +164,9 @@ export default {
       max-height 350px
       overflow-y auto
       position relative
+      .demo-code-item
+        div[class*="language-"]
+          margin 0
       .demo-code-content-copy
         position absolute
         top 30px
