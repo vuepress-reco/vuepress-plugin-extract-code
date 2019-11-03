@@ -79,12 +79,10 @@ export default {
       this.codeNavIndex = i
     },
     makeCodeNavConfigs () {
-      console.log(this.$slots)
       const slots = this.$slots
       const configs = []
       let title
       for (const key in slots) {
-        console.log(key.indexOf('code-'))
         if (key.indexOf('code-') == 0) {
           title = key.replace('code-', '').replace(/^\S/, s => s.toUpperCase())
           configs.push({
